@@ -1,10 +1,7 @@
 class Application:
 
     def __init__(self, urlpatterns: dict, front_controllers: list):
-        """
-        :param urlpatterns: словарь связок url: view
-        :param front_controllers: список front controllers
-        """
+        
         self.urlpatterns = urlpatterns
         self.front_controllers = front_controllers
 
